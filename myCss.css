@@ -1,30 +1,56 @@
 @charset "utf-8";
 #wrapper {
-    width: 90%;
+    width: 73%;
     margin-left: auto;
     margin-right: auto;
     font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-    background-color: #A5CBE5;
+    background-color: #FFFFFF;
+    background-image: url(Assets/Blank.jpg);
+    background-size: 126% auto;
+    background-repeat: repeat-y;
+    text-shadow: 0px 0px #FAB8A8;
 }
 #Main {
-    width: 60%;
+    width: 51%;
     left: 11px;
-    float: left;
     top: auto;
     clear: none;
-    margin-left: 28px;
-    background-color: #002C5B;
-    color: #FBFBFB;
+    background-color: #FCB968;
+    color: #2A2A2A;
+    padding-top: 3px;
+    margin-bottom: 15px;
+    font-size: large;
+    border-radius: 4px;
+    float: none;
+    border-style: outset;
+    margin-top: 15px;
 }
 #Right Side {
     width: 20%;
     right: 0px;
+    clear: none;
+    float: right;
+    margin-left: 660px;
+    margin-top: 43px;
+    margin-bottom: 57px;
 }
 #wrapper #Right_side {
     clear: none;
-    background-color: #002C5B;
-    color: #F9F9F9;
+    background-color: #9BACBE;
+    color: #2A2A2A;
     text-align: left;
+    font-size: large;
+    width: 268pt;
+    height: 305pt;
+    float: right;
+    margin-top: 19px;
+    -webkit-box-shadow: 0px 0px 0px;
+    box-shadow: 0px 0px 0px;
+    background-clip: border-box;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    border-style: inset;
+    opacity: 1;
 }
 #Right_side {
     width: 20%;
@@ -40,6 +66,10 @@
 }
 #my_footer {
     clear: both;
+    background-color: #F6DF53;
+    margin-top: 18px;
+    padding-top: 7px;
+    padding-bottom: 7px;
 
 }
 
@@ -51,39 +81,431 @@
 
 
 #my_header {
-    background-image: url(Assets/Header%20image.jpeg);
+    background-image: url(Assets\TItle%20-%20RY.jpg.jpeg);
     background-clip: content-box;
+    font-size: medium;
 }
 #my_nav {
-    padding-top: 21px;
-    padding-bottom: 21px;
-    background-color: #89BFE3;
-    color: #041735;
-    font-size: 15.5px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background-color: #F6DF53;
+    color: #2A2A2A;
+    font-size: 17px;
     text-align: center;
 }
 #Wrapper2 {
-    width: 95%;
+    width: 73%;
     margin-left: auto;
     margin-right: auto;
-    background-color: #89BFE3;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    background-color: #FFFFFF;
+    background-image: url(Assets/Blank.jpg);
+    background-size: 126% auto;
+    background-repeat: repeat-y;
+    text-shadow: 0px 0px #FAB8A8;
+    float: none;
+    clear: both;
 }
-#My_NAV_2 {
-    padding-top: 21px;
-    padding-bottom: 21px;
-    color: #041735;
-    text-align: center;
-    font-size: 15.5px;
+
+
+#wrapper2 {
+    width: 73%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    background-color: #FFFFFF;
+    background-image: url(Assets/Blank.jpg);
+    background-size: 126% auto;
+    background-repeat: repeat-y;
+    text-shadow: 0px 0px #FAB8A8;
+}
+
+
 }
 #Section_Right {
     width: 40%;
     padding-right: 0px;
-    padding-left: 38px;
+    padding-left: 0px;
     clear: both;
+    margin-top: 20px;
+    margin-left: 28px;
+    margin-bottom: 15px;
+    padding-top: 3px;
+    left: 11pt;
     float: left;
+    background-color: #FCB968;
+    color: #2A2A2A;
+    font-size: large;
 }
 #Section_Left {
     width: 40%;
     margin-left: auto;
     padding-right: 44px;
+}
+#Footer2 {
+    clear: both;
+    background-color: #F6DF53;
+    margin-top: 18px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+#my_nav2 {
+    padding-top: 0.4x;
+    padding-bottom: 0.03px;
+    background-color: #F6DF53;
+    color: #2A2A2A;
+    font-size: 14.5px;
+    text-align: center;
+}
+#Main2 {
+    width: 40%;
+    margin-top: 20px;
+    margin-left: 54px;
+    margin-bottom: 17px;
+    padding-top: 3px;
+    float: left;
+    background-color: #FCB968;
+    clear: both;
+    border-top-left-radius: 0px;
+    border-style: inset;
+}
+#Right_side2 {
+    clear: right;
+    background-color: #9BACBE;
+    color: #2A2A2A;
+    text-align: left;
+    font-size: large;
+    width: 168pt;
+    height: 236pt;
+    float: none;
+    -webkit-box-shadow: 0px 0px 0px;
+    box-shadow: 0px 0px 0px;
+    background-clip: border-box;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border-style: inset;
+    opacity: 1;
+    margin-left: 513px;
+}
+#my_header2 {
+	background-image: url(Assets\areas.jpg.jpeg);
+    background-clip: content-box;
+    font-size: medium;
+}
+#wrapper2 {
+    width: 73%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    background-color: #FFFFFF;
+    background-image: url(Assets/Blank.jpg);
+    background-size: 126% auto;
+    background-repeat: repeat-y;
+    text-shadow: 0px 0px #FAB8A8;
+}
+
+#my_footer2 {
+    clear: both;
+    background-color: #F6DF53;
+
+}
+#Ed2 {
+     width: 73%;
+    left: 11px;
+    top: auto;
+    clear: none;
+    background-color: #FCB968;
+    color: #2A2A2A;
+    padding-top: 3px;
+    margin-bottom: 15px;
+    font-size: large;
+    border-radius: 4px;
+    float: none;
+    border-style: outset;
+    margin-top: 15px;
+}
+
+#Ed {
+	 width: 73%;
+    left: 11px;
+    top: auto;
+    clear: none;
+    background-color: #9BACBE;
+    color: #2A2A2A;
+    padding-top: 3px;
+    margin-bottom: 15px;
+    font-size: large;
+    border-radius: 4px;
+    float: none;
+    border-style: outset;
+    margin-top: 15px;
+}
+#Main9 {
+	width: 73%;
+    left: 11px;
+    top: auto;
+    clear: none;
+    background-color: #9BACBE;
+    color: #2A2A2A;
+    padding-top: 3px;
+    margin-bottom: 15px;
+    font-size: large;
+    border-radius: 4px;
+    float: none;
+    border-style: outset;
+    margin-top: 15px;
+}
+#wrapper3 {
+    width: 73%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    background-color: #FFFFFF;
+    background-image: url(Assets/Blank.jpg);
+    background-size: 126% auto;
+    background-repeat: repeat-y;
+    text-shadow: 0px 0px #FAB8A8;
+}
+#ed3 {
+	width: 73%;
+    left: 11px;
+    top: auto;
+    clear: none;
+    background-color: #9BACBE;
+    color: #2A2A2A;
+    padding-top: 3px;
+    margin-bottom: 15px;
+    font-size: large;
+    border-radius: 4px;
+    float: none;
+    border-style: outset;
+    margin-top: 15px;
+}
+
+#my_header3 {
+	background-image: url(Assets\Education.jpg);
+    background-clip: content-box;
+    font-size: medium;
+}
+#my_nav3 {
+	padding-top: 0.05px;
+    padding-bottom: 0.05px;
+    background-color: #F6DF53;
+    color: #2A2A2A;
+    font-size: 15.5px;
+    text-align: center;
+}
+#my_footer3 {
+	clear: both;
+    background-color: #F6DF53;
+    margin-top: 2px;
+    padding-top: 0.05px;
+    padding-bottom: 2px;
+}
+#wrapper4 {
+	width: 73%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    background-color: #FFFFFF;
+    background-image: url(Assets/Blank.jpg);
+    background-size: 126% auto;
+    background-repeat: repeat-y;
+    text-shadow: 0px 0px #FAB8A8;
+}
+#my_header4 {
+	background-image: url(Assets\Education.jpg);
+    background-clip: content-box;
+    font-size: medium;
+}
+#my_nav4 {
+	padding-top: 0.05px;
+    padding-bottom: 0.05px;
+    background-color: #F6DF53;
+    color: #2A2A2A;
+    font-size: 15.5px;
+    text-align: center;
+}
+#ProEx {
+	width: 73%;
+    left: 11px;
+    top: auto;
+    clear: none;
+    background-color: #9BACBE;
+    color: #2A2A2A;
+    padding-top: 3px;
+    margin-bottom: 15px;
+    font-size: large;
+    border-radius: 4px;
+    float: none;
+    border-style: outset;
+    margin-top: 15px;
+}
+#ProEx2 {
+	width: 73%;
+    left: 11px;
+    top: auto;
+    clear: none;
+    background-color: #FCB968;
+    color: #2A2A2A;
+    padding-top: 3px;
+    margin-bottom: 15px;
+    font-size: large;
+    border-radius: 4px;
+    float: none;
+    border-style: outset;
+    margin-top: 15px;
+}
+#ProEx3 {
+	width: 73%;
+    left: 11px;
+    top: auto;
+    clear: none;
+    background-color: #9BACBE;
+    color: #2A2A2A;
+    padding-top: 3px;
+    margin-bottom: 15px;
+    font-size: large;
+    border-radius: 4px;
+    float: none;
+    border-style: outset;
+    margin-top: 15px;
+}
+#my_footer4 {
+	clear: both;
+    background-color: #F6DF53;
+    margin-top: 2px;
+    padding-top: 0.05px;
+    padding-bottom: 2px;
+}
+#wrapper5 {
+	width: 73%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    background-color: #FFFFFF;
+    background-image: url(Assets/Blank.jpg);
+    background-size: 126% auto;
+    background-repeat: repeat-y;
+    text-shadow: 0px 0px #FAB8A8;
+}
+#my_header5 {
+	background-image: url(Assets\Education.jpg);
+    background-clip: content-box;
+    font-size: medium;
+}
+#my_nav5 {
+	padding-top: 0.05px;
+    padding-bottom: 0.05px;
+    background-color: #F6DF53;
+    color: #2A2A2A;
+    font-size: 15.5px;
+    text-align: center;
+}
+#ProOrg {
+	width: 73%;
+    left: 11px;
+    top: auto;
+    clear: none;
+    background-color: #9BACBE;
+    color: #2A2A2A;
+    padding-top: 3px;
+    margin-bottom: 15px;
+    font-size: large;
+    border-radius: 4px;
+    float: none;
+    border-style: outset;
+    margin-top: 15px;
+}
+#ProOrg2 {
+	width: 73%;
+    left: 11px;
+    top: auto;
+    clear: none;
+    background-color: #FCB968;
+    color: #2A2A2A;
+    padding-top: 3px;
+    margin-bottom: 15px;
+    font-size: large;
+    border-radius: 4px;
+    float: none;
+    border-style: outset;
+    margin-top: 15px;
+}
+#my_footer5 {
+	clear: both;
+    background-color: #F6DF53;
+    margin-top: 2px;
+    padding-top: 0.05px;
+    padding-bottom: 2px;
+}
+#wrapper6 {
+	width: 73%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    background-color: #FFFFFF;
+    background-image: url(Assets/Blank.jpg);
+    background-size: 126% auto;
+    background-repeat: repeat-y;
+    text-shadow: 0px 0px #FAB8A8;
+}
+#my_header6 {
+	background-image: url(Assets\Education.jpg);
+    background-clip: content-box;
+    font-size: medium;
+}
+#my_nav6 {
+	padding-top: 0.05px;
+    padding-bottom: 0.05px;
+    background-color: #F6DF53;
+    color: #2A2A2A;
+    font-size: 15.5px;
+    text-align: center;
+}
+#text {
+    width: 73%;
+    left: 11px;
+    top: auto;
+    clear: none;
+    background-color: #FCB968;
+    color: #2A2A2A;
+    padding-top: 3px;
+    margin-bottom: 41px;
+    font-size: large;
+    border-radius: 4px;
+    float: none;
+    border-style: outset;
+    margin-top: 15px;
+}
+#wrapper7 {
+	width: 73%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    background-color: #FFFFFF;
+    background-image: url(Assets/Blank.jpg);
+    background-size: 126% auto;
+    background-repeat: repeat-y;
+    text-shadow: 0px 0px #FAB8A8;
+}
+#my_header7 {
+	background-image: url(Assets\Education.jpg);
+    background-clip: content-box;
+    font-size: medium;
+}
+#my_nav7 {
+	padding-top: 0.05px;
+    padding-bottom: 0.05px;
+    background-color: #F6DF53;
+    color: #2A2A2A;
+    font-size: 15.5px;
+    text-align: center;
+}
+#my_footer7 {
+	clear: both;
+    background-color: #F6DF53;
+    margin-top: 2px;
+    padding-top: 0.05px;
+    padding-bottom: 2px;
 }
